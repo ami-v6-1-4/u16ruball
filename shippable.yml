@@ -10,12 +10,7 @@ rvm:
   - "jruby-9.1.15"  
   
 build:
-
-  pre_ci_boot:
-    image_name: drydock/u16ruball
-    image_tag: v6.1.4
-    pull: true  
-    
+   
   ci:
     - ruby -v
-    
+  
